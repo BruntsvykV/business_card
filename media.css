@@ -87,26 +87,17 @@
     }
 }
 
+.card-social_icon:hover svg {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+
+.card-social_icon:hover span {
+    text-decoration-line: underline;
+    transition-duration: 300ms;
+}
+
 .link {
     cursor: pointer;
     width: 100px;
-}
-
-.link:hover {
-    animation: shake 2s;
-}
-
-@keyframes shake {
-    0%, 50%, 100% {
-        transform: rotate(0deg);
-    }
-
-    10%, 30% {
-        transform: rotate(-10deg);
-    }
-
-    20%, 40% {
-        transform: rotate(10deg);
-    }
-
 }
